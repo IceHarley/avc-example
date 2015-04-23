@@ -6,12 +6,12 @@ import com.bikesandwheels.annotations.*;
         @Revision(
                 date = @Date(year = 2015, month = 4, day = 6),
                 comment = "revision 1",
-                authors = {@Author("class_author1"), @Author("class_author2")}
+                authors = {@Author("John"), @Author("Jack")}
         ),
         @Revision(
                 date = @Date(year = 2015, month = 4, day = 7),
                 comment = "revision 2",
-                authors = {@Author("class_author2"), @Author("class_author3")}
+                authors = {@Author("Jack"), @Author("Mike")}
         )
 })
 public class HistoryRevisedClass {
